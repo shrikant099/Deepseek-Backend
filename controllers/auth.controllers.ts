@@ -181,7 +181,7 @@ export const getCurrentUser = async (req: Request, res: Response): Promise<Respo
                 profilePicture: user.profilePicture || ""
             },
             message: "Current user retrieved successfully",
-        })
+        });
 
 
     } catch (error: any) {
